@@ -1,0 +1,505 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FBFAFA;
+    min-height: 100vh;
+    letter-spacing: 0.3px;
+}
+.page-name{
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    font-size: 16px; 
+    background-color: #FBFAFA;
+    
+    
+}
+
+.page-name i{
+    margin-left: 100px;
+    font-size: 25px;
+    color: #C7F2E8;
+    padding: 5px;
+}
+
+.page-name h1{
+    padding: 10px;
+    font-weight: 400;
+}
+.page-name h1 span{
+    color: #C7F2E8;
+    font-style: italic;
+}
+
+.hero{
+    background-color: #C7F2E8;
+    display: flex;
+    flex: 1;
+}
+
+.hero-img img{
+    width: 550px;
+    height: 100%;
+}
+
+.hero-desc{
+    padding: 20px;
+    /* margin-top: 40px; */
+}
+
+.hero-desc .section-1 h3{
+    font-size: 16px;
+    font-style: italic;
+    margin: 30px 0px 0px 50px;;
+    padding: 5px;
+
+}
+
+.hero-desc .section-1 h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 28px;
+    margin: 0px 0px 0px 50px;
+    padding: 5px;
+}
+
+.hero-desc .section-1 p{
+    font-size: 14px;
+    line-height: 1.5em;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin: 10px 10px 10px 50px;
+}
+
+.section-2 h1{
+    font-size: 18px;
+    margin: 10px 0px 5px 50px;
+    padding: 10px;
+}
+
+.section-2 #fnames{
+    width: 80%;
+    height: 45px;
+    margin: 10px 0px 0px 50px;
+    border-radius: 10px;
+    /* border: 2px solid #C7F2E8; */
+    display: flex;
+    flex: 1;
+}
+#fnames input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #C7C7C7;
+    height: 90%;
+    background: #FBFAFA;
+    flex: 5;
+    border: none;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 20px;
+}
+
+#fnames i{
+    font-size: 15px;
+    background-color: #FBFAFA;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+    height: 41px;
+}
+.more-details{
+    margin-top: 5px;
+}
+
+.more-details {
+    display: flex;
+    flex: 1;
+    width: 80%;
+    margin-left: 50px;
+    justify-content: space-between;
+
+}
+.more-details .input-group input, select{
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color:#C7C7C7;
+    padding: 10px;
+}
+
+.submit-reservation input{
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    /* padding: 10px; */
+    margin: 20px 10px 50px 50px;
+    background-color: #71B0A1;
+    color: #FBFCF8;
+    text-align: center;
+    justify-content: center;
+}
+
+.discover-section{
+    background-color: #FBFAFA;
+    display: flex;
+    flex: 1;
+    letter-spacing: 0.3px;
+    line-height: 1.5em;
+    
+}
+
+.discover-details{
+    margin: 70px 20px 20px 150px;
+    width: calc(60% - 150px);
+    align-content: center;
+}
+
+.discover-details h1{
+    margin-left: 10px;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.discover-details h3{
+    margin-left: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    font-style: italic;
+    padding: 5px;
+    color: #C7F2E8;
+  
+}
+
+.discover-details p{
+    line-height: 1.5em;
+    height: auto;
+    padding: 20px;
+    margin: 5px 10px;
+    font-size: 14px;
+}
+.discover-image{
+    height: 100%;
+    display: flex;
+    flex: 1;
+    margin: 60px 70px 0px 10px;
+}
+.discover-image img{
+    width: 200px;
+    height: 70%;
+    margin: 5px;
+    border-radius: 10px;
+    /* image-orientation: ce; */
+}
+
+.about-section{
+    background-color: #f0f7f5;
+    display: flex;
+    flex: 1;
+}
+.about-image{
+    height: 90%;
+    width: 45%;
+}
+
+.about-image img{
+    margin: 30px 180px;
+    width: 400px;
+    height: 55%;
+    border-radius: 10px;
+}
+
+.about-details{
+    margin: 40px 70px 20px 40px;
+    height: auto;
+}
+
+.about-details h1{
+    margin-left: 10px;
+    font-size: 28px;
+    padding: 5px;  
+}
+
+
+.about-details h3{
+    margin-left: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    font-style: italic;
+    padding: 5px;
+    color: #C7F2E8;
+  
+}
+
+.about-details p{
+    line-height: 1.5em;
+    height: auto;
+    padding: 20px;
+    margin: 5px 10px;
+    font-size: 14px;
+}
+
+.summary{
+    height: 200px;
+    text-align: center;
+    padding: 50px;
+}
+
+.summary h1{
+    font-size: 28px;
+    padding: 10px;
+    /* margin-top: 30px; */
+}
+
+.summary h1 span{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 28px;
+    font-style: italic;
+    color: #C7F2E8;
+    
+}
+
+.summary p{
+    width: 60%;
+    margin-left: 250px;
+    line-height: 1.5em;
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.popular-dishes{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+ .treding-dish{
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    
+ }
+
+.treding-dish img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.treding-dish p{
+    line-height: 1.5em;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.price{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    color: #C7F2E8;
+}
+
+.price i{
+    vertical-align: super;
+    font-size: small;
+}
+
+.price{
+    font-size: 18px;
+}
+
+.Try-section{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+}
+.to-try{
+    width: 450px;
+    height:350px;
+    margin: 30px 3px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.to-try h1{
+    font-size: 24px;
+    padding: 10px;
+}
+.to-try h3{
+    margin-top: 90px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+}
+
+.to-try p{
+    line-height: 1.5em;
+    padding: 10px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    width: 90%;
+    justify-content: center;
+    margin: 5px 20px;
+}
+div #food-1{
+    background-image: url("/img/breakfast.jpg");
+    background-position: right left;
+    background-size:450px 350px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+div #food-2{
+    background-image: url("/img/lunch.jpg");
+    background-position: right left;
+    background-size:450px 350px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+div #food-3{
+    background-image: url("/img/dessert.jpg");
+    background-position: right left;
+    background-size:450px 350px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+
+.subscribe-section{
+    text-align: center;
+    padding: 55px;
+}
+
+.subscribe-section h1{
+font-size: 28px;
+padding: 10px;
+/* margin-top: 30px; */
+}
+
+.subscribe-section p{
+width: 60%;
+margin-left: 250px;
+line-height: 1.5em;
+height: auto;
+padding: 10px;
+font-size: 14px;
+}
+
+.mail-group{
+    display: flex;
+    flex: 1;
+    margin-left: 200px;
+}
+
+#subscribing{
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #C7F2E8;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color:#C7C7C7;
+    padding: 10px;
+    margin: 10px;
+}
+
+#sub-btn{
+    width: 150px;
+    height:50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    align-items: center;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: #71B0A1;
+    color: #FBFCF8;
+    text-align: center;
+}
+
+.testimony_section{
+    text-align: center;
+    padding: 30px;
+    background-color: #f0f7f5;
+}
+
+.testimony_section h1{
+    font-size: 28px;
+    padding: 10px;
+    /* margin-top: 30px; */
+}
+
+.testimony_section h1 span{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 28px;
+    font-style: italic;
+    color: #C7F2E8;   
+}
+
+.testimonies{
+    display: flex;
+    flex: 1;
+    margin-left: 150px;
+}
+
+.test{
+    display: flex;
+    flex: 1;
+    margin: 10px;
+}
+.test img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.testimony i, p{
+    display: flex;
+}
+
+.testimony i{
+    color: #C7F2E8;
+    font-size: 15px;
+    margin: 5px 10px;
+}
+
+.testimony p{
+    font-size: 14px;
+    margin: 5px 20px;
+    /* padding: 10px; */
+    width: 80%;
+    line-height: 1.5em;
+}
+
+.testimony h6{
+    font-style: italic;
+    color: #C7F2E8;
+    font-size: 16px;
+    font-family: 'Abril Fatface', cursive;
+    padding: 10px; 
+}
